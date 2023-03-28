@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Sketch | three.js + p5.js</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- supportive libraries -->
+    <script src="libs/stats.min.js"></script>
+    <script src="libs/dat.gui.min.js"></script>
+    <script src="libs/Reflector.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script> -->
+
+    <!-- p5.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"
+      crossorigin="anonymous"
+    ></script>
+        <script src="libs/three.js"></script>
+    <script src="libs/OrbitControls.js"></script>
+<!--     <script src="https://threejs.org/examples/js/controls/FlyControls.js"></script>
+    <script src="https://threejs.org/examples/js/postprocessing/EffectComposer.js"></script>
+    <script src="https://threejs.org/examples/js/postprocessing/RenderPass.js"></script>
+    <script src="https://threejs.org/examples/js/postprocessing/ShaderPass.js"></script>
+    <script src="https://threejs.org/examples/js/shaders/CopyShader.js"></script>
+    <script src="https://threejs.org/examples/js/shaders/FXAAShader.js"></script>
+    <script src="https://threejs.org/examples/js/shaders/LuminosityShader.js"></script>
+    <script src="https://threejs.org/examples/js/shaders/SobelOperatorShader.js"></script>
+    <script src="https://threejs.org/examples/js/shaders/LuminosityHighPassShader.js"></script>
+    <script src="https://threejs.org/examples/js/postprocessing/UnrealBloomPass.js"></script>
+    <script src="https://threejs.org/examples/js/postprocessing/UnrealBloomPass.js"></script> -->
+<!--     <script src= "libs/CSMFrustum.js"></script>
+    <script src="https://threejs.org/examples/js/csm/CSM.js"></script> -->
+<!--      <script src="https://threejs.org/examples/js/csm/CSMFrustum.js"></script> -->
+<!--     <script src="https://threejs.org/examples/js/csm/CSMShader.js"></script>
+    <script src="https://threejs.org/examples/js/csm/CSMHelper.js"></script> -->
+   
+    
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/addons/p5.sound.min.js" crossorigin="anonymous"></script> -->
+
+    <!-- ml5.js -->
+    <!-- <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js" crossorigin="anonymous"></script> -->
+
+    <!-- three.js -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js" crossorigin="anonymous"></script> -->
+<!--     <script src="/libs/three.js"></script>
+    <script src="/libs/OrbitControls.js"></script> -->
+
+    <!-- the main script -->
+    <script src="/js/script-p5.js" defer></script>
+    <script src="/js/script-three.js" defer></script>
+    <script src="/js/script-main.js" defer></script>
+    
+    <script type="text/javascript" src="/js/Bridge.js" defer></script>
+    <script type="text/javascript" src="/js/Gate.js" defer></script>
+    <script type="text/javascript" src="/js/LightCube.js" defer></script>
+    <script type="text/javascript" src="/js/Corridor.js" defer></script>
+    <script type="text/javascript" src="/js/interaction.js" defer></script>
+    <script type="text/javascript" src="/js/utility.js" defer></script>
+    <script type="text/javascript" src="/js/Environment.js" defer></script>
+    <script type="text/javascript" src="/js/Text.js" defer></script>
+  </head>
+  <body>
+    <audio id="myAudio">
+  <source src="https://cdn.glitch.global/e919c93f-c4da-4800-a85b-42c68254008a/dark-ambient-bgm.mp3?v=1670843886055" type="audio/mpeg">
+</audio>
+    <div id="container-three"></div>
+    <div id="container-p5"></div>
+  </body>
+</html>
